@@ -21,13 +21,6 @@ export default function Navbar() {
     { name: 'Contact', href: '#contact' },
   ]
 
-  const timeSlots = [
-    { day: 'Mon, Jul 27', time: '09:00 AM' },
-    { day: 'Mon, Jul 27', time: '10:30 AM' },
-    { day: 'Tue, Jul 28', time: '01:00 PM' },
-    { day: 'Wed, Jul 29', time: '02:30 PM' },
-    { day: 'Thu, Jul 30', time: '04:00 PM' },
-  ]
 
   return (
     <header
@@ -55,7 +48,7 @@ export default function Navbar() {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-sm font-medium text-slate-600 hover:text-black/90 transition-colors rounded-md px-1 py-0.5"
+                className="text-sm font-medium text-black/80 hover:text-black transition-colors rounded-md px-1 py-0.5"
               >
                 {link.name}
               </a>
@@ -95,7 +88,7 @@ export default function Navbar() {
 
       
       <div
-        className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${scrolled? "bg-black/10 border-black/10 border-b  backdrop-blur-2xl": "bg-black/10"}   ${
+        className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out  bg-black/10 border-black/10 border-b  backdrop-blur-2xl ${
           isOpen ? 'max-h-80 opacity-100' : 'max-h-0 opacity-0'
         } rounded-b-2xl corner-shape`}
       >
@@ -105,7 +98,7 @@ export default function Navbar() {
               key={link.name}
               href={link.href}
               onClick={() => setIsOpen(false)}
-              className="block px-3 py-2 rounded-lg text-base font-medium text-slate-700 hover:text-black/90 hover:bg-white/60 corner-shape"
+              className="block px-3 py-2 rounded-lg text-base font-medium text-black/90 hover:text-black hover:bg-white/60 corner-shape"
             >
               {link.name}
             </a>
