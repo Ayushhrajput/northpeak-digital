@@ -4,7 +4,7 @@ A modern, responsive one-page agency website built as part of the **Digital Hero
 
 The website showcases a fictional digital agency, **NorthPeak Digital**, featuring a clean UI, responsive layouts, semantic HTML, accessibility best practices, and optimized performance.
 
-🔗 **Live Demo:** https://your-live-url.vercel.app](https://northpeak-digital-w94v.vercel.app/
+🔗 **Live Demo:** https://northpeak-digital-w94v.vercel.app/
 
 🔗 **GitHub Repository:** https://github.com/Ayushhrajput/northpeak-digital
 
