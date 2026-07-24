@@ -1,6 +1,32 @@
-import React from 'react';
+import React, { useLayoutEffect } from 'react';
+import { gsap } from "gsap";    
+import { SplitText } from "gsap/SplitText";
+
+gsap.registerPlugin(SplitText);
 
 export default function Hero() {
+
+  useLayoutEffect(() => {
+    const titleSplit = new SplitText(".titled", {type: "lines"})
+    gsap.from(titleSplit.lines, {
+        yPercent: 40,
+        opacity: 0,
+        duration: 1.8,
+        ease: "expo.inOut",
+        stagger: 0.06
+    })
+
+    const paragraphSplit = new SplitText(".paragraph", {type: "words"})
+    gsap.from(paragraphSplit.words, {
+        yPercent: 100,
+        opacity: 0,
+        duration: 1.8,
+        ease: "expo.inOut",
+        delay: 1,
+        stagger: 0.06
+    })
+  }, [])
+
   return (
     <section  className="relative pt-32 pb-20  md:pb-28 bg-gradient-to-b from-slate-50/80 via-white to-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -16,7 +42,7 @@ export default function Hero() {
             </div>
 
  
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-[1.15]">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-[1.15] titled">
               Grow Your Business with Digital Marketing That{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-600">
                 Converts
@@ -24,7 +50,7 @@ export default function Hero() {
             </h1>
 
        
-            <p className="text-lg sm:text-xl text-slate-600 max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
+            <p className="text-lg sm:text-xl text-slate-600 max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed paragraph">
               NorthPeak Digital crafts high-performing web platforms, scalable SEO strategies, striking brand identities, and data-driven marketing campaigns built to scale your revenue.
             </p>
 
