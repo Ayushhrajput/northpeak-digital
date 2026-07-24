@@ -26,7 +26,7 @@ export default function Navbar() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 `}
     >
-      <div className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ${scrolled? "bg-black/10 border-b  border-b-black/10 backdrop-blur-2xl shadow-sm shadow-white/20": ""}`}>
+      <div className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ${scrolled? "bg-white/10 border-b  border-b-white/10 backdrop-blur-2xl shadow-sm shadow-white/20": ""}`}>
         <div className="flex items-center justify-between">
           
           <a
@@ -88,7 +88,7 @@ export default function Navbar() {
 
       
       <div
-        className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out  bg-black/10 border-black/10 border-b  backdrop-blur-2xl ${
+        className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out  bg-white/10 border-b-white/10 border-b shadow-sm backdrop-blur-2xl ${
           isOpen ? 'max-h-80 opacity-100' : 'max-h-0 opacity-0'
         } rounded-b-2xl corner-shape`}
       >
