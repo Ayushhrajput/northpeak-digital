@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Hero(props) {
+function Services(props) {
     return (
-        <div className='w-full '> 
+        <div>
             
         </div>
     );
 }
 
-export default Hero;
+export default Services;
