@@ -18,7 +18,7 @@ export default function Hero() {
  
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-[1.15]">
               Grow Your Business with Digital Marketing That{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-black/90 to-black">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-600">
                 Converts
               </span>
             </h1>
