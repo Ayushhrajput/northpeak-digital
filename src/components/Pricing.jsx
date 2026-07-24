@@ -113,7 +113,7 @@ export default function Pricing() {
                   href="#contact"
                   className={`w-full block text-center py-3.5 px-6 rounded-xl corner-shape font-semibold text-sm transition-all focus:outline-none focus:ring-2 focus:ring-offset-2 ${
                     plan.featured
-                      ? 'bg-blue-600 text-white hover:bg-black/90 shadow-md shadow-black/20'
+                      ? 'bg-blue-600 text-white hover:bg-blue-500 shadow-md shadow-black/20'
                       : 'bg-slate-100 text-slate-900 hover:bg-slate-200'
                   }`}
                 >
