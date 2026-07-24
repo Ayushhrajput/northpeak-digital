@@ -78,9 +78,9 @@ export default function Services() {
               key={idx}
               className="bg-white p-8 rounded-2xl corner-shape border border-slate-100 shadow-xs hover:shadow-lg transition-all duration-300 group"
             >
-              <div className="w-12 h-12 rounded-xl corner-shape bg-blue-50 flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+              <div className="w-12 h-12 rounded-xl corner-shape bg-gray-100 flex items-center justify-center mb-6 group-hover:bg-black/90 group-hover:text-white transition-colors">
                 {React.cloneElement(service.icon, {
-                  className: 'w-6 h-6 text-blue-600 group-hover:text-white transition-colors'
+                  className: 'w-6 h-6 text-black/90 group-hover:text-white transition-colors'
                 })}
               </div>
               <h3 className="text-xl font-bold text-slate-900 tracking-tight mb-3">
