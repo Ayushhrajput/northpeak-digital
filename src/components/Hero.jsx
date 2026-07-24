@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Hero() {
   return (
-    <section className="relative pt-32 pb-20  md:pb-28 bg-gradient-to-b from-slate-50/80 via-white to-white overflow-hidden">
+    <section  className="relative pt-32 pb-20  md:pb-28 bg-gradient-to-b from-slate-50/80 via-white to-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
     

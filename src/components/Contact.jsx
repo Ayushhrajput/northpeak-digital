@@ -104,10 +104,10 @@ export default function Contact() {
                     name="fullName"
                     value={formData.fullName}
                     onChange={handleChange}
-                    className={`w-full px-4 py-3 rounded-xl corner-shape border bg-white text-slate-900 text-sm focus:outline-none transition-colors ${
+                    className={`w-full px-4 py-3 rounded-xl corner-shape shadow bg-white text-slate-900 text-sm focus:outline-none transition-colors ${
                       errors.fullName
                         ? 'border-rose-400 focus:ring-rose-400'
-                        : 'border-black/10'
+                        : ''
                     }`}
                     placeholder="Jane Doe"
                   />
@@ -125,10 +125,10 @@ export default function Contact() {
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
-                    className={`w-full px-4 py-3 rounded-xl corner-shape border bg-white text-slate-900 text-sm focus:outline-none  transition-colors ${
+                    className={`w-full px-4 py-3 rounded-xl corner-shape shadow bg-white text-slate-900 text-sm focus:outline-none  transition-colors ${
                       errors.email
                         ? 'border-rose-400 focus:ring-rose-400'
-                        : 'border-slate-200  focus:border-transparent'
+                        : ' focus:border-transparent'
                     }`}
                     placeholder="jane@company.com"
                   />
@@ -146,10 +146,10 @@ export default function Contact() {
                     name="company"
                     value={formData.company}
                     onChange={handleChange}
-                    className={`w-full px-4 py-3 rounded-xl corner-shape border bg-white text-slate-900 text-sm focus:outline-none  transition-colors ${
+                    className={`w-full px-4 py-3 rounded-xl corner-shape shadow bg-white text-slate-900 text-sm focus:outline-none  transition-colors ${
                       errors.company
                         ? 'border-rose-400 focus:ring-rose-400'
-                        : 'border-slate-200  focus:border-transparent'
+                        : '  focus:border-transparent'
                     }`}
                     placeholder="Acme Inc."
                   />
@@ -167,10 +167,10 @@ export default function Contact() {
                     rows={4}
                     value={formData.message}
                     onChange={handleChange}
-                    className={`w-full px-4 py-3 rounded-xl corner-shape border bg-white text-slate-900 text-sm focus:outline-none  transition-colors ${
+                    className={`w-full px-4 py-3 rounded-xl corner-shape shadow bg-white text-slate-900 text-sm focus:outline-none  transition-colors ${
                       errors.message
                         ? 'border-rose-400 focus:ring-rose-400'
-                        : 'border-black/10 focus:border-transparent'
+                        : ' focus:border-transparent'
                     }`}
                     placeholder="Tell us about your project goals and timeline..."
                   />
@@ -180,7 +180,7 @@ export default function Contact() {
                
                 <button
                   type="submit"
-                  className="w-full py-3.5 px-6 rounded-xl bg-black hover:bg-black/90 active:scale-95 text-white font-semibold text-sm shadow-md shadow-blue-500/20 transition-all focus:outline-none  "
+                  className="w-full py-3.5 px-6 rounded-xl corner-shape bg-black hover:bg-black/90 active:scale-95 text-white font-semibold text-sm shadow-md shadow-blue-500/20 transition-all focus:outline-none  "
                 >
                   Send Message
                 </button>
