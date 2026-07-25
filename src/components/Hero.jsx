@@ -42,7 +42,7 @@ export default function Hero() {
             </h1>
           
        
-            <p className="text-lg sm:text-xl text-slate-600 max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed >
+            <p className="text-lg sm:text-xl text-slate-600 max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed ">
               NorthPeak Digital crafts high-performing web platforms, scalable SEO strategies, striking brand identities, and data-driven marketing campaigns built to scale your revenue.
             </p>
 
