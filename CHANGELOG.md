@@ -5,7 +5,7 @@ This document outlines the improvements made to optimize the NorthPeak Digital w
 ## Performance
 
 - Optimized images and used SVG icons where possible to reduce page weight.
-- Reduced unnecessary GSAP animations by replacing paragraph word-by-word animation with a simple fade-in effect.
+- Reduced unnecessary GSAP animations.
 - Minimized JavaScript execution during initial page load.
 - Removed unused CSS and optimized Tailwind utility usage.
 
