@@ -15,8 +15,8 @@ export default function Hero() {
         ease: "expo.inOut",
         stagger: 0.06
     })
-
-    const paragraphSplit = new SplitText(".paragraph", {type: "lines"})
+    
+    {/*const paragraphSplit = new SplitText(".paragraph", {type: "lines"})
     gsap.from(paragraphSplit.lines, {
         yPercent: 100,
         opacity: 0,
@@ -24,7 +24,7 @@ export default function Hero() {
         ease: "expo.inOut",
         delay: 1,
         stagger: 0.06
-    })
+    })*/}
   }, [])
 
   return (
@@ -48,7 +48,7 @@ export default function Hero() {
                 Converts
               </span>
             </h1>
-
+          
        
             <p className="text-lg sm:text-xl text-slate-600 max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed paragraph">
               NorthPeak Digital crafts high-performing web platforms, scalable SEO strategies, striking brand identities, and data-driven marketing campaigns built to scale your revenue.
