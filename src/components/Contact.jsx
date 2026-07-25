@@ -71,11 +71,11 @@ export default function Contact() {
             </p>
           </div>
 
-          <div className="bg-slate-50 border border-slate-100 p-8 sm:p-10 rounded-2xl corner-shape shadow-xs">
+          <div className="bg-slate-50  p-8 sm:p-10 rounded-2xl corner-shape shadow-xs">
             {isSubmitted ? (
               <div
                 role="alert"
-                className="p-6 rounded-xl bg-emerald-50 border border-emerald-200 text-center space-y-2 animate-fadeIn"
+                className="p-6 rounded-xl   text-center space-y-2 animate-fadeIn"
               >
                 <div className="w-12 h-12 rounded-full corner-shape bg-emerald-100 text-emerald-600 flex items-center justify-center mx-auto mb-3">
                   <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
