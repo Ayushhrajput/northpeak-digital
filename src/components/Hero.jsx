@@ -16,7 +16,7 @@ export default function Hero() {
         stagger: 0.06
     })
     
-    {/*const paragraphSplit = new SplitText(".paragraph", {type: "lines"})
+    const paragraphSplit = new SplitText(".paragraph", {type: "lines"})
     gsap.from(paragraphSplit.lines, {
         yPercent: 100,
         opacity: 0,
@@ -24,7 +24,7 @@ export default function Hero() {
         ease: "expo.inOut",
         delay: 1,
         stagger: 0.06
-    })*/}
+    })
   }, [])
 
   return (
