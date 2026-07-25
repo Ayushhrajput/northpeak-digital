@@ -88,7 +88,7 @@ export default function Navbar() {
 
       
       <div
-        className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out  bg-white/10 border-b-white/10 border-b shadow-sm backdrop-blur-2xl ${
+        className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out  bg-white border-b-white/10 border-b shadow-sm ${
           isOpen ? 'max-h-80 opacity-100' : 'max-h-0 opacity-0'
         } rounded-b-2xl corner-shape`}
       >
